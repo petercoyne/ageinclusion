@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="32px" viewBox="0 0 22 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1-Copy-5" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-254.000000, -1826.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="Group-4" transform="translate(222.000000, 1503.000000)">
+                <g id="ic-pin-drop-48px" transform="translate(26.000000, 320.000000)">
+                    <path d="M26.4285714,12.4875 C26.4285714,7.24565625 22.2092857,3 17,3 C11.7907143,3 7.57142857,7.24565625 7.57142857,12.4875 C7.57142857,19.603125 17,29.88125 17,29.88125 C17,29.88125 26.4285714,19.603125 26.4285714,12.4875 Z M13.8571429,12.4875 C13.8571429,10.7402187 15.2635714,9.325 17,9.325 C18.7364286,9.325 20.1428571,10.7402187 20.1428571,12.4875 C20.1428571,14.2347812 18.7364286,15.65 17,15.65 C15.2635714,15.65 13.8571429,14.2347812 13.8571429,12.4875 Z M6,31.4625 L6,34.625 L28,34.625 L28,31.4625 L6,31.4625 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
