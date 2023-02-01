@@ -1,7 +1,7 @@
 <script lang="ts">
-	import { fade, slide } from "svelte/transition";
-	import Logo from "$lib/Logo.svelte";
-	let menushow = true;
+	import { fade, slide, blur } from "svelte/transition";
+	import LogoSmall from "$lib/LogoSmall.svelte";
+	let menushow = false;
 	function toggleMobileMenu() {
 		menushow = !menushow;
 	}
@@ -32,26 +32,23 @@
 </div>
 
 {#if menushow}
-	<div id="mobilemenu" on:click={toggleMobileMenu} on:keypress={toggleMobileMenu}>
-		<nav
-			id="mobile-menu"
-			class="z-10 md:hidden top-6 left-6 right-24 p-4 rounded-xl fixed bg-white bg-opacity-70 backdrop-blur-lg border border-gray-300
-					sm:top-10 sm:right-32 sm:left-10 sm:rounded-lg
-					">
-					<Logo />
+	<div id="mobilemenu" class="z-10 md:hidden top-6 left-6 right-24 p-4 rounded-xl fixed bg-white bg-opacity-70 backdrop-blur-lg border border-gray-300
+					sm:top-10 sm:right-32 sm:left-10 sm:rounded-lg" transition:blur on:click={toggleMobileMenu} on:keypress={toggleMobileMenu}>
+
+					<LogoSmall />
 			<a class="" href="/services/">Services</a>
 			<a class="" href="/about/">About Us</a>
 			<a class="" href="/contact/">Contact</a>
 			<a class="" href="/donate/" id="donate">Donate</a>
-		</nav>
+
 	</div>
 {/if}
 
 <style lang="postcss">
-	nav a {
-		@apply text-black block text-center mt-4 flex-row justify-end p-2 bg-white transition-colors duration-300 border border-gray-300;
+	#mobilemenu a {
+		@apply text-white rounded-full block text-center text-xl font-bold mt-4 flex-row justify-end p-2 bg-waix-blue-dark transition-colors duration-300 border border-gray-300;
 	}
-	nav a:hover {
+	#mobilemenu a:hover {
 		@apply bg-wai-600 text-white;
 	}
 </style>

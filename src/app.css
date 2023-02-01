@@ -2,13 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4 {
 	font-family: "Enriqueta";
 }
 
 body {
 	font-family: "Montserrat";
 	background-color: #FDFDFD;
+	background-image: url("img/bokeh-blue.webp");
+	background-size: cover;
+	background-attachment: fixed;
 }
 
 .glow {
@@ -71,117 +74,6 @@ body {
       #servicesbox .service {
         width: 45%; } }
 
-/* line 442, /Users/peter/Documents/Work/Age Inclusion/repo/styles/main.scss */
-#homelocationevents {
-  position: relative; }
-  /* line 445, /Users/peter/Documents/Work/Age Inclusion/repo/styles/main.scss */
-  #homelocationevents .container {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 80px 50px; }
-    /* line 450, /Users/peter/Documents/Work/Age Inclusion/repo/styles/main.scss */
-    #homelocationevents .container h3 {
-      margin-top: 0;
-      margin-bottom: 22px; }
-    /* line 454, /Users/peter/Documents/Work/Age Inclusion/repo/styles/main.scss */
-    #homelocationevents .container .greybox {
-      overflow: hidden;
-      color: #676767; }
-    /* line 458, /Users/peter/Documents/Work/Age Inclusion/repo/styles/main.scss */
-    #homelocationevents .container .locationgrid {
-      display: flex;
-      align-items: flex-start;
-      margin: 24px;
-      font-size: 14px; }
-      /* line 463, /Users/peter/Documents/Work/Age Inclusion/repo/styles/main.scss */
-      #homelocationevents .container .locationgrid p {
-        margin: 0 0 0 16px; }
-      /* line 466, /Users/peter/Documents/Work/Age Inclusion/repo/styles/main.scss */
-      #homelocationevents .container .locationgrid #openinghoursgrid {
-        display: flex;
-        flex-wrap: wrap;
-        margin-left: 16px; }
-        /* line 470, /Users/peter/Documents/Work/Age Inclusion/repo/styles/main.scss */
-        #homelocationevents .container .locationgrid #openinghoursgrid p {
-          width: 50%;
-          margin-left: 0; }
-        @media screen and (max-width: 879px) {
-          /* line 475, /Users/peter/Documents/Work/Age Inclusion/repo/styles/main.scss */
-          #homelocationevents .container .locationgrid #openinghoursgrid p {
-            width: 100%; }
-          /* line 478, /Users/peter/Documents/Work/Age Inclusion/repo/styles/main.scss */
-          #homelocationevents .container .locationgrid #openinghoursgrid .ohday {
-            margin-top: 8px;
-            font-weight: 400; } }
-    /* line 485, /Users/peter/Documents/Work/Age Inclusion/repo/styles/main.scss */
-    #homelocationevents .container #location-phone {
-      font-size: 18px; }
-    /* line 488, /Users/peter/Documents/Work/Age Inclusion/repo/styles/main.scss */
-    #homelocationevents .container .event {
-      display: flex;
-      margin: 24px; }
-      /* line 491, /Users/peter/Documents/Work/Age Inclusion/repo/styles/main.scss */
-      #homelocationevents .container .event .event-date {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        font-weight: 400; }
-        /* line 497, /Users/peter/Documents/Work/Age Inclusion/repo/styles/main.scss */
-        #homelocationevents .container .event .event-date p {
-          margin: 0; }
-        /* line 501, /Users/peter/Documents/Work/Age Inclusion/repo/styles/main.scss */
-        #homelocationevents .container .event .event-date .event-day {
-          font-size: 32px; }
-      /* line 508, /Users/peter/Documents/Work/Age Inclusion/repo/styles/main.scss */
-      #homelocationevents .container .event .event-details {
-        margin-left: 16px;
-        border-left: 1px solid #E0E0E0;
-        padding: 8px 0 8px 16px; }
-        /* line 512, /Users/peter/Documents/Work/Age Inclusion/repo/styles/main.scss */
-        #homelocationevents .container .event .event-details h5 {
-          margin: 0;
-          font-size: 20px; }
-    @media screen and (max-width: 767px) {
-      /* line 445, /Users/peter/Documents/Work/Age Inclusion/repo/styles/main.scss */
-      #homelocationevents .container {
-        flex-direction: column;
-        padding: 40px 30px; }
-        /* line 521, /Users/peter/Documents/Work/Age Inclusion/repo/styles/main.scss */
-        #homelocationevents .container h3 {
-          margin-top: 0; }
-        /* line 524, /Users/peter/Documents/Work/Age Inclusion/repo/styles/main.scss */
-        #homelocationevents .container #upcomingeventsheader {
-          margin-top: 32px; } }
-
-
-/* line 531, /Users/peter/Documents/Work/Age Inclusion/repo/styles/main.scss */
-#pobal {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 24px;
-  margin: 30px 0 10px 0; }
-  /* line 540, /Users/peter/Documents/Work/Age Inclusion/repo/styles/main.scss */
-  #pobal p {
-    margin: 0 32px; }
-  /* line 543, /Users/peter/Documents/Work/Age Inclusion/repo/styles/main.scss */
-  #pobal #poballogo {
-    width: 160px;
-    height: 64px; }
-  @media screen and (max-width: 767px) {
-    /* line 531, /Users/peter/Documents/Work/Age Inclusion/repo/styles/main.scss */
-    #pobal {
-      flex-direction: column;
-      margin: 0; }
-      /* line 550, /Users/peter/Documents/Work/Age Inclusion/repo/styles/main.scss */
-      #pobal #info {
-        width: 32px; }
-      /* line 553, /Users/peter/Documents/Work/Age Inclusion/repo/styles/main.scss */
-      #pobal p {
-        margin: 32px 0; } }
-
 /* line 559, /Users/peter/Documents/Work/Age Inclusion/repo/styles/main.scss */
 .services-service {
   position: relative; }
@@ -201,22 +93,6 @@ body {
     .services-service .container li {
       margin-bottom: 8px; }
 
-/* line 577, /Users/peter/Documents/Work/Age Inclusion/repo/styles/main.scss */
-#moreinfo {
-  position: relative; }
-
-/* line 581, /Users/peter/Documents/Work/Age Inclusion/repo/styles/main.scss */
-#moreinfo .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
-  /* line 585, /Users/peter/Documents/Work/Age Inclusion/repo/styles/main.scss */
-  #moreinfo .container a {
-    margin-bottom: 1em; }
-  /* line 588, /Users/peter/Documents/Work/Age Inclusion/repo/styles/main.scss */
-  #moreinfo .container p {
-    text-align: center; }
-
 /* line 594, /Users/peter/Documents/Work/Age Inclusion/repo/styles/main.scss */
 .services-service form {
   margin: 0 auto;
@@ -234,101 +110,3 @@ body {
   /* line 607, /Users/peter/Documents/Work/Age Inclusion/repo/styles/main.scss */
   .services-service form .g-recaptcha {
     margin: 1em auto 0; }
-
-/* line 613, /Users/peter/Documents/Work/Age Inclusion/repo/styles/main.scss */
-#footer {
-  position: relative;
-  color: #FFF; }
-  /* line 616, /Users/peter/Documents/Work/Age Inclusion/repo/styles/main.scss */
-  #footer a {
-    color: #FFF;
-    text-decoration: none; }
-  /* line 620, /Users/peter/Documents/Work/Age Inclusion/repo/styles/main.scss */
-  #footer .darkblueflat {
-    background-color: #587B9F;
-    position: absolute;
-    z-index: -1;
-    width: 100%;
-    height: 100%;
-    bottom: -50px; }
-  /* line 628, /Users/peter/Documents/Work/Age Inclusion/repo/styles/main.scss */
-  #footer .container {
-    display: flex;
-    justify-content: space-between;
-    padding: 80px 50px 10px; }
-  /* line 634, /Users/peter/Documents/Work/Age Inclusion/repo/styles/main.scss */
-  #footer #footerleft {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; }
-    /* line 638, /Users/peter/Documents/Work/Age Inclusion/repo/styles/main.scss */
-    #footer #footerleft #footercopyright {
-      color: #ABC9E7;
-      line-height: 1.7; }
-    /* line 643, /Users/peter/Documents/Work/Age Inclusion/repo/styles/main.scss */
-    #footer #footerleft #footercontact img {
-      width: 28px;
-      margin-right: 8px;
-      margin-top: 8px; }
-    /* line 649, /Users/peter/Documents/Work/Age Inclusion/repo/styles/main.scss */
-    #footer #footerleft #footerpartners {
-      background-color: #fff;
-      border-radius: 8px; }
-      /* line 652, /Users/peter/Documents/Work/Age Inclusion/repo/styles/main.scss */
-      #footer #footerleft #footerpartners img {
-        height: 44px;
-        margin: 16px; }
-  /* line 658, /Users/peter/Documents/Work/Age Inclusion/repo/styles/main.scss */
-  #footer #footerright {
-    flex-grow: 1; }
-    /* line 660, /Users/peter/Documents/Work/Age Inclusion/repo/styles/main.scss */
-    #footer #footerright h3 {
-      margin-top: 0;
-      color: #ABC9E7; }
-    /* line 664, /Users/peter/Documents/Work/Age Inclusion/repo/styles/main.scss */
-    #footer #footerright #sitemap {
-      display: flex;
-      justify-content: space-between; }
-      /* line 667, /Users/peter/Documents/Work/Age Inclusion/repo/styles/main.scss */
-      #footer #footerright #sitemap ul {
-        list-style: none;
-        padding-left: 0;
-        margin-bottom: 0;
-        line-height: 1.7; }
-  /* line 675, /Users/peter/Documents/Work/Age Inclusion/repo/styles/main.scss */
-  #footer #footerdivider {
-    background-color: #ABC9E7;
-    width: 1px;
-    margin: 0px 48px; }
-  @media screen and (max-width: 879px) {
-    /* line 681, /Users/peter/Documents/Work/Age Inclusion/repo/styles/main.scss */
-    #footer .container {
-      flex-direction: column; }
-    /* line 684, /Users/peter/Documents/Work/Age Inclusion/repo/styles/main.scss */
-    #footer #footerleft {
-      flex-direction: row; } }
-  @media screen and (max-width: 767px) {
-    /* line 689, /Users/peter/Documents/Work/Age Inclusion/repo/styles/main.scss */
-    #footer .container {
-      padding: 50px 30px 0; }
-    /* line 692, /Users/peter/Documents/Work/Age Inclusion/repo/styles/main.scss */
-    #footer #footerleft {
-      flex-direction: column; }
-      /* line 694, /Users/peter/Documents/Work/Age Inclusion/repo/styles/main.scss */
-      #footer #footerleft > div {
-        margin-bottom: 24px; }
-      /* line 697, /Users/peter/Documents/Work/Age Inclusion/repo/styles/main.scss */
-      #footer #footerleft #footerpartners {
-        width: 300px; } }
-  @media screen and (max-width: 549px) {
-    /* line 704, /Users/peter/Documents/Work/Age Inclusion/repo/styles/main.scss */
-    #footer #footerleft #footerpartners {
-      width: 260px;
-      display: flex;
-      justify-content: space-around; }
-      /* line 708, /Users/peter/Documents/Work/Age Inclusion/repo/styles/main.scss */
-      #footer #footerleft #footerpartners img {
-        height: 36px; }
-    /* line 714, /Users/peter/Documents/Work/Age Inclusion/repo/styles/main.scss */
-    #footer #footerright #sitemap {
-      flex-direction: column; } }
