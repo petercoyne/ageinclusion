@@ -9,7 +9,7 @@ h1, h2, h3, h4 {
 body {
 	font-family: "Montserrat";
 	background-color: #FDFDFD;
-	background-image: url("img/bokeh-blue.webp");
+	background-image: url("/img/bokeh-blue.webp");
 	background-size: cover;
 	background-attachment: fixed;
 }
